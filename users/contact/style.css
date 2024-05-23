@@ -1,0 +1,93 @@
+.main1 {
+  width: 100%;
+  height: 50vh;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2020/07/contact-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.main {
+  width: 100%;
+  background-color: rgba(232, 232, 232, 0.275);
+  height: 150vh;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.main1Inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff78;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10%;
+  & h1 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+}
+.main2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+.container {
+  width: 60%;
+  display: flex;
+}
+.send {
+  font-weight: 400;
+}
+.contact {
+  width: 60%;
+}
+.contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 15px;
+}
+form input,
+textarea {
+  outline: none;
+  width: 100%;
+  border: 1px solid rgba(211, 211, 211, 0.526);
+  color: #000;
+}
+form input {
+  height: 40px;
+}
+form textarea {
+  height: 90px;
+}
+form button {
+  width: 25%;
+  height: 40px;
+  border: none;
+  background-color: tomato;
+  color: #fff;
+  border-radius: 20px;
+}
+.map {
+  width: 36%;
+  margin-left: 3%;
+}
+.mapContainer {
+  width: 100%;
+  margin-top: 15px;
+}
+.mapContainer iframe {
+  width: 100%;
+}

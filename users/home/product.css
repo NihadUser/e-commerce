@@ -1,0 +1,134 @@
+.main {
+  width: 100%;
+  background-color: rgba(235, 235, 235, 0.458);
+  border-top: 1px solid rgba(104, 104, 104, 0.386);
+  border-bottom: 1px solid rgba(116, 116, 116, 0.385);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.mainInner {
+  width: 60%;
+  background-color: #fff;
+  padding: 60px;
+}
+.mainContent {
+  display: flex;
+}
+.image {
+  width: 46%;
+}
+.image img {
+  width: 100%;
+  object-fit: contain;
+}
+.price {
+  font-size: 16px;
+  font-weight: bold;
+}
+.disPrice {
+  font-weight: bold;
+  font-size: 16px;
+}
+.delPrice {
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+.name {
+  font-size: 30px;
+  padding: 10px 0;
+}
+.content {
+  width: 50%;
+  margin-left: 4%;
+}
+.category {
+  font-size: 14px;
+  color: #2b2f38;
+}
+.free {
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: 100 !important;
+}
+.description {
+  padding: 14px 0;
+  font-size: 14px;
+  opacity: 0.7;
+}
+form {
+  width: 100%;
+  padding: 20px 0;
+}
+.number {
+  width: 10%;
+  height: 25px;
+  border: 1px solid gray;
+  outline: none;
+}
+form button {
+  width: 40%;
+  height: 25px;
+  background-color: #fc5f5f;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+}
+.cName {
+  font-size: 13px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+.products {
+  font-size: 30px;
+  padding: 30px 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #b9b9b9;
+  text-align: center;
+}
+table thead {
+  border: 1px solid #b9b9b9;
+  background-color: rgb(235, 235, 235);
+  height: 60px;
+}
+table tbody tr td img {
+  width: 80%;
+}
+table tr th,
+td {
+  font-size: 15px;
+  width: 18%;
+}
+.x {
+  width: 5%;
+}
+.apply {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  width: 15%;
+  height: 30px;
+  border-radius: 15px;
+  background-color: tomato;
+  color: #fff;
+  border: none;
+}
+tfoot {
+  position: relative;
+  height: 80px;
+  border: 1px solid #b9b9b9;
+}
+.input {
+  width: 30%;
+  height: 30px;
+  outline: none;
+  border: 1px solid #a2a2a26c;
+}
+/* .relatedProducts{
+
+} */

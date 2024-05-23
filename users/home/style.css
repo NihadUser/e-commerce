@@ -1,0 +1,227 @@
+.main {
+  width: 100%;
+}
+.main1 {
+  width: 100%;
+  height: 90vh;
+  min-height: 45vh;
+  background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2020/07/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: relative;
+}
+.basketContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000059;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.mainBasket {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 30%;
+  z-index: 999;
+  height: 98%;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  overflow-y: hidden;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  /* transform: translate(100%); */
+}
+.mainBasket::-webkit-scrollbar {
+  display: none;
+}
+
+/* .mainBasket.active {
+  visibility: visible;
+  transform: translate(0);
+  opacity: 1;
+} */
+.basketContainer.active2 {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999;
+}
+.main1Content {
+  width: 100%;
+  padding: 10% 20%;
+}
+.main1Content h1 {
+  font-size: 45px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.main1Content p {
+  font-weight: 500;
+}
+.main1Content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc5f5f;
+  color: #fff;
+  width: 25%;
+  height: 35px;
+  font-size: 13px;
+  border-radius: 25px;
+}
+.main1Text {
+  width: 50%;
+}
+.main2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px 0;
+}
+.main2 p {
+  font-size: 14px;
+}
+.products {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.products img {
+  width: 100%;
+}
+.link {
+  display: block;
+  color: #2b2f38;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.category {
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+.price {
+  font-size: 12px;
+  font-weight: bold;
+}
+.disPrice {
+  font-weight: bold;
+  font-size: 12px;
+}
+.delPrice {
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+.stars i {
+  font-size: 14px;
+}
+.main2Title {
+  font-size: 30px !important;
+}
+.main2Content {
+  padding: 15px 0 20px 0;
+  font-size: 12px;
+  color: grey;
+}
+.main3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.main3Inner {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+.items {
+  background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant6-free-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: 0.3s;
+  width: 30%;
+  padding: 300px 10px 30px 10px;
+}
+.items2 {
+  background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus2-free-img.jpg);
+}
+.items3 {
+  background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant4-free-img.jpg);
+}
+.item1 {
+  font-size: 18px;
+}
+.item2 {
+  font-size: 13px;
+  padding: 20px 0;
+}
+.item3 {
+  color: tomato;
+  font-size: 14px;
+}
+.items img {
+  width: 100%;
+}
+.item:hover {
+  box-shadow: 0 0 20px 0 lightgray;
+}
+
+.content1 a {
+  font-size: 13px;
+  color: #4e5768;
+}
+.basketInner {
+  width: 100%;
+  display: flex;
+}
+.img {
+  width: 30%;
+}
+.img img {
+  width: 80%;
+}
+.colser {
+  width: 100%;
+  padding: 5px;
+}
+#close {
+  float: right;
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 8%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
